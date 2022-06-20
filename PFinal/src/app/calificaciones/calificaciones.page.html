@@ -1,0 +1,27 @@
+<app-regresar Titulo="Consultar Calificaciones"></app-regresar>
+
+<ion-content color="light">
+  <h4 class="h4Especial">Calificaciones:</h4>
+  <ion-grid fixed>
+    <ion-row>
+      <ion-col class="Negro" size="4">Número del alumno</ion-col>
+      <ion-col class="Negro" size="4">Asignatura</ion-col>
+      <ion-col class="Negro" size="4">Calificación</ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col size="4"><a [routerLink]="['/editar-calificacion']">100065431</a></ion-col>
+      <ion-col size="4">Ciencias Naturales</ion-col>
+      <ion-col size="4">80</ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col size="4"><a [routerLink]="['/editar-calificacion']">100058714</a></ion-col>
+      <ion-col size="4">Naturales</ion-col>
+      <ion-col size="4">100</ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col size="4"><a [routerLink]="['/editar-calificacion']">100078991</a></ion-col>
+      <ion-col size="4">Matemáticas</ion-col>
+      <ion-col size="4">60</ion-col>
+    </ion-row>
+  </ion-grid>
+</ion-content>
